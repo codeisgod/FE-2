@@ -14,22 +14,22 @@
                             - nav
                     - header etc
     - JavaScript Doesn't understand Tree structure it understand Object Structure 
-'''
-Document: {
-    HTML: {
-        Head: {
-            Meta: {}
-            Link: {}
-            title: {}
-        }
-        Body: {
-            div: {
-                div: {
-                    nav: {}
-                }
+    ```
+    Document: {
+        HTML: {
+            Head: {
+                Meta: {}
+                Link: {}
+                title: {}
             }
-            header: {}
+            Body: {
+                div: {
+                    div: {
+                        nav: {}
+                    }
+                }
+                header: {}
+            }
         }
     }
-}
-'''
+    ```
